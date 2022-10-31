@@ -1,48 +1,86 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-      <title>Favorite Restaurants</title>
-    </head>
+<head>
+  <title>Favorite Restaurants</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type='text/css' href="assets\css\style.css">
+</head>
 
-    <body>
-        <a href="my_kitchen.html">My Kitchen</a>
-        <a href="contact_us.html">Contact Us</a>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light background-color-black">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-2">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+            aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-2">
+          <div class="collapse navbar-collapse" id="navbarID">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="my_kitchen.html">My Kitchen</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="collapse navbar-collapse" id="navbarID">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
 
-        <h1>Welcome to my Favorite Restaurants Site</h1>
+            </div>
+          </div>
+        </div>
 
-        <p>This site is all about my favorite restaurant.</p>
+      </div>
+    </div>
+  </nav>
 
-<h2>Here are some cities I've eaten at.</h2>
+  <h1>Welcome to my Favorite Restaurants Site</h1>
 
-<ul>
-   <b>
-    <li>Denver</li>
-    <li>Houston</li>
-    <li>New York</li>
-    <li>Jacksonville</li>
-    <em><li>New Orleans</li></em>
-   </b>
+  <p>This site is all about my favorite restaurant.</p>
+
+  <h2>Here are some cities I've eaten at.</h2>
+
+  <ul>
+    <b>
+      <li>Denver</li>
+      <li>Houston</li>
+      <li>New York</li>
+      <li>Jacksonville</li>
+      <em>
+        <li>New Orleans</li>
+      </em>
+    </b>
   </ul>
-<div>
-  <h3>
-    New Orleans is my home and favortite of all.<br>
-    These are my favorite restaurants and the cuisine they serve.
-  </h3>
-  <table>
-    <tr>
-      <th>restaurant</th>
-      <th>cuisine</th>
-    </tr>
-    <tr>
-      <td>Commander's Palace</td>
-      <td>Cajun</td>
-    </tr>
-    <tr>
-      <td>Pho Bang</td>
-      <td>Vietnamese</td>
-    </tr>
-    <tr>
+  <div>
+    <h3>
+      New Orleans is my home and favortite of all.<br>
+      These are my favorite restaurants and the cuisine they serve.
+    </h3>
+    <table>
+      <tr>
+        <th>restaurant</th>
+        <th>cuisine</th>
+      </tr>
+      <tr>
+        <td>Commander's Palace</td>
+        <td>Cajun</td>
+      </tr>
+      <tr>
+        <td>Pho Bang</td>
+        <td>Vietnamese</td>
+      </tr>
+      <tr>
         <td>el Patron</td>
         <td>Mexican</td>
       </tr>
@@ -54,12 +92,12 @@
         <td><strong>my kitchen</strong></td>
         <td>various</td>
       </tr>
-  </table>
-</div>
-<h3><em>Of couse my favorite of all is </em>
-<a href="my_kitchen.html"><b>My Kitchen</b></a>.
-</h3>
+    </table>
+  </div>
+  <h3><em>Of couse my favorite of all is </em>
+    <a href="my_kitchen.html"><b>My Kitchen</b></a>.
+  </h3>
 
-    </body>
+</body>
 
 </html>
